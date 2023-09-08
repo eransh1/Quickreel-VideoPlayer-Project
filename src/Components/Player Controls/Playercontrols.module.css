@@ -1,0 +1,112 @@
+.outerCont{
+    background-color: black;
+   width: 500px;
+   padding-top: .5rem;
+   border-radius: 11px;
+}
+.songSeeker{
+    width: 100%;
+    height: 6px;
+    background: gray;
+    border-radius: 16px;
+    /* margin-top: 1rem; */
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.seekBar{
+    background: #FFFFFF;
+border-radius: 16px;
+height: 6px;
+position: absolute;
+left: 0;
+width: 100px;
+margin-top: 0;
+}
+
+.controlerCont{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+ 
+}
+.optionCont{
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.threeDots{
+    color: white;
+    font-size: 1.2rem;
+}
+.player{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.playerCont{
+    width: 50%;
+    margin: auto;
+    margin: auto;
+    display: flex;
+}
+.prevSong{
+    cursor: pointer;
+    transform: rotate(180deg);
+    color: white;
+    opacity: 0.6;
+    font-size: 1.3rem;
+    margin: auto;
+}
+.playPauseIcon{
+    font-size: 1.9rem;
+}
+.playBtnCont{
+    width: 48px;
+height: 48px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+margin: auto;
+cursor: pointer;
+}
+.nextSong{
+    cursor: pointer;
+    color: white;
+    opacity: 0.6;
+    font-size: 1.3rem;
+    margin: auto;  
+}
+.timerContShowingTimer{
+    color: white;
+    font-size: 1.2rem;
+}
+.audio{
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: auto; 
+    cursor: pointer;  
+}
+.audioIcon{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.mainPlayer{
+    position: absolute;
+    visibility: hidden;
+}
